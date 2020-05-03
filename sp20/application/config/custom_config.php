@@ -8,8 +8,8 @@ $config['copyright'] = 'Default Copyright';
 $config['masthead'] = 'Default MastHead';
 $config['theme'] = 'themes/bootswatch/';
 
-// $config['nav1'] = array(
-//     'news' => 'News',
-//     'news/create' => 'Add News'
-//     );
+$config['nav1'] = array(
+    'news' => 'News',
+    'news/create' => 'Add News'
+    );
     

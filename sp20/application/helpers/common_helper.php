@@ -111,19 +111,19 @@ if(!function_exists('bootswatchFeedback'))
 		return $myReturn; //data passed back for printing
 	} 
 
-	// if(!function_exists('makeLinks'))
-    // {
-    //     function makeLinks($nav)
-    //     {
-    //         $myReturn = '';
-    //         foreach($nav as $key => $value)
-    //         {
-    //             $myReturn .= '<li><a href="' . $key . '">' . $value . '</a></li>' . PHP_EOL;
-    //         }
+	if(!function_exists('makeLinks'))
+    {
+        function makeLinks($nav)
+        {
+            $myReturn = '';
+            foreach($nav as $key => $value)
+            {
+                $myReturn .= '<li><a href="' . $key . '">' . $value . '</a></li>' . PHP_EOL;
+            }
  
-    //         return $myReturn;
-    //         //return 'Is this working?';
-    //     }
-    // }//end makeLinks
+            return $myReturn;
+            //return 'Is this working?';
+        }
+    }//end makeLinks
 
 }#end bootswatchFeedback()
